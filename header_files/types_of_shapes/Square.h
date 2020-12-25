@@ -19,7 +19,7 @@ public:
     ~Square();
 
 private:
-    // Для Ромба реализуем только саму отрисовку
+    // Для Прямоугольника реализуем только саму отрисовку
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 };
 

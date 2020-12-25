@@ -18,7 +18,7 @@ public:
     ~Ellipse();
 
 private:
-    // Для Ромба реализуем только саму отрисовку
+    // Для Эллипса реализуем только саму отрисовку
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 };
 

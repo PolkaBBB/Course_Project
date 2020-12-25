@@ -19,7 +19,7 @@ public:
     ~Triangle();
 
 private:
-    // Для Ромба реализуем только саму отрисовку
+    // Для Треугольника реализуем только саму отрисовку
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 };
 
